@@ -13,3 +13,5 @@ pcpcinterface.c
 # ci or testing files
 .coverage
 shippable/
+
+.local_history
