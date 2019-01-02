@@ -6,6 +6,9 @@ use POSIX qw(strftime);
 
 my $jobid = $ARGV[0];
 my $jobdatelong = strftime "%Y%m%d.%H.%M.%S", localtime;
+my $logyear = strftime "%Y", localtime;
+my $logmonth = strftime "%m", localtime;
+my $logday = strftime "%d", localtime;
 my $fullhost = hostname();
 
 # PCP End of job logging
